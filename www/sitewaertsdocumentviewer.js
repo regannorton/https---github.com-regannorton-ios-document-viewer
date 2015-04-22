@@ -50,7 +50,7 @@ function getOptions(provided)
     if (!options.print)
         options.print = {};
     if (!options.print.enabled)
-        options.print.enabled = true;
+        options.print.enabled = false;
 
 
     if (!options.openWith)
